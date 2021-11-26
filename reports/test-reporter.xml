@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/home/ronin/fullcycle/fullcycle-desafio-ci-1/src/app.controller.spec.ts">
+        <testCase name="AppController root should return &quot;Hello World!&quot;" duration="12"/>
+        <testCase name="AppController first-name should return &quot;Roni Peterson&quot;" duration="3"/>
+        <testCase name="AppController last-name should return &quot;Carvalho&quot;" duration="3"/>
+    </file>
+</testExecutions>
