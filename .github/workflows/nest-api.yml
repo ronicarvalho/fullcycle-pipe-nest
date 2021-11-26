@@ -24,6 +24,7 @@ jobs:
     - run: yarn 
     - run: yarn build
     - run: yarn test
+    - run: yarn test:cov
 
   sonarcloud:
     name: SonarCloud
