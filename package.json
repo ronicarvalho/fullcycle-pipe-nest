@@ -68,12 +68,11 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node",
-    "collectCoverage": true,
     "testResultsProcessor": "jest-sonar-reporter"
   },
   "jestSonar": {
-    "reportPath": "../reports",
-    "reportFile": "test-reporter.xml",
+    "reportPath": "reports",
+    "reportFile": "test-report.xml",
     "indent": 4
   }
 }
