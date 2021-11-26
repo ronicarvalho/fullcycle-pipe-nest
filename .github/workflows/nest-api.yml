@@ -3,14 +3,12 @@
 
 name: Nest API CI
 
-on:
-  push:
-    branches: [ main ]
+on: 
   pull_request:
-    branches: [ main ]
+    branches: [ develop ]
 
 jobs:
-  build:
+  check-application:
 
     runs-on: ubuntu-latest
 
@@ -25,5 +23,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'yarn'
-    - run: yarn install
+    - run: yarn 
+    - run: yarn build
     - run: yarn test
