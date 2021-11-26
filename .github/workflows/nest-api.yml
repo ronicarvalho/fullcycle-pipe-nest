@@ -3,14 +3,10 @@
 
 name: Nest API CI
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+on: [push]
 
 jobs:
-  build:
+  check-application:
 
     runs-on: ubuntu-latest
 
