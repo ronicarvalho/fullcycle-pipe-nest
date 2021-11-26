@@ -67,7 +67,8 @@
       "**/*.(t|j)s"
     ],
     "coverageDirectory": "../coverage",
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "testResultsProcessor": "jest-sonar-reporter"
   },
   "jestSonar": {
     "reportPath": "reports",
