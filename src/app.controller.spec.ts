@@ -31,4 +31,23 @@ describe('AppController', () => {
       expect(appController.getLastName()).toBe('Carvalho');
     });
   });
+
+  describe('city-name', () =>{
+    it('should return "Campinas"', () => {
+      expect(appController.getCityName()).toBe('Campinas');
+    });
+  });
+
+  describe('state-name', () =>{
+    it('should return "Sao Paulo"', () => {
+      expect(appController.getStateName()).toBe('Sao Paulo');
+    });
+  });
+
+  describe('country-name', () =>{
+    it('should return "Brasil"', () => {
+      expect(appController.getCountryName()).toBe('Brasil');
+    });
+  });
+
 });

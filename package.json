@@ -66,6 +66,11 @@
     "collectCoverageFrom": [
       "**/*.(t|j)s"
     ],
+    "coveragePathIgnorePatterns": [
+      ".module.ts$",
+      ".main.ts$",
+      "test/*.ts$"
+    ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node",
     "testResultsProcessor": "jest-sonar-reporter"
