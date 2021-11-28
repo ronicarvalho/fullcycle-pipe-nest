@@ -9,8 +9,20 @@ export class AppService {
   getFirstName(): string {
     return 'Roni Peterson';
   }
-
+  
   getLastName(): string {
     return 'Carvalho';
+  }
+
+  getCityName(): string {
+    return 'Campinas';
+  }
+  
+  getStateName(): string {
+    return 'Sao Paulo';
+  }
+
+  getCountryName(): string {
+    return 'Brasil';
   }
 }

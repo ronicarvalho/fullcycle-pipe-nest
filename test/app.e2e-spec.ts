@@ -35,4 +35,25 @@ describe('AppController (e2e)', () => {
       .expect(200)
       .expect('Carvalho');
   });
+
+  it('/city-name (GET)', () => {
+    return request(app.getHttpServer())
+      .get('/city-name')
+      .expect(200)
+      .expect('Campinas');
+  });
+  
+  it('/state-name (GET)', () => {
+    return request(app.getHttpServer())
+      .get('/state-name')
+      .expect(200)
+      .expect('Sao Paulo');
+  });
+  
+  it('/country-name (GET)', () => {
+    return request(app.getHttpServer())
+      .get('/country-name')
+      .expect(200)
+      .expect('Brasil');
+  });
 });
