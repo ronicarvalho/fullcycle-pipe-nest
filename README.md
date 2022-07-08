@@ -36,7 +36,7 @@ $ npm install
 $ npm -g install yarn
 ```
 
-## Running the app
+## Running the api
 
 ```bash
 # development
@@ -62,7 +62,7 @@ $ yarn test:e2e
 $ yarn test:cov
 ```
 
-## Building the app
+## Building the api
 
 ```bash
 # build prod version
